@@ -2,10 +2,10 @@
 
 The assignment is a part of the course "Digital Image Processing" in the Department of Electrical & Computer Engineering of the Aristotle University of Thessaloniki. The goal of this assignment is to build our own implementations of the Hough transform, Harris Corner Detector and Image Rotation.
 
-You can find the input image that was used at the experiments [here](https://github.com/tasos-m/DIP-Hough-Harris-Rotation/blob/main/im2.jpg). 
+You can find the input image that was used for the experiments [here](https://github.com/tasos-m/DIP-Hough-Harris-Rotation/blob/main/im2.jpg). 
 
 ## Hough transform
-The Hough Transform is concerned with the identification of lines in the image. Our own implementation can be found in the _myHoughTransform.m_ and the script that demonstrates the functionality of the algorithm is the _deliverable_1_.m. 
+The Hough Transform is concerned about the identification of lines in the image. Our own implementation can be found in the _myHoughTransform.m_ and the script that demonstrates the functionality of the algorithm is the _deliverable_1_.m. 
 The input image is resized 20%, converted to grayscale and normalized at the range of [0,1]. We apply a Gaussian smoothing with standard deviation of 4 and a Sobel Edge Detector with threshold 0.02, in order to get the clipped image that becomes input to the Hough Transform algorithm.
 
 The output image with the lines detected:
